@@ -44,3 +44,6 @@ Watch real-time tracking with bounding boxes and dynamic text overlays.
 Post-Processing Insights:
 
 Review detailed analytics, including customer counts, dwell time distributions, zone visitation metrics, and actionable recommendations.
+
+![WhatsApp Image 2025-04-05 at 23 45 36_3055f483](https://github.com/user-attachments/assets/08721430-2dad-416e-96fa-8155ad6eb841)
+
