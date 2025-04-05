@@ -16,11 +16,12 @@ analytics = defaultdict(lambda: {
     'visited_zones': set()
 })
 
-# Define store zones (x1, y1, x2, y2)
+# Define store zones (x1, y1, x2, y2) based on the attached image layout
 ZONES = {
-    'Snacks and Beverages': (300, 0, 600, 300),
-    'Household Items': (0, 300, 300, 600),
-    'Fresh Produce': (300, 300, 600, 600),
+    'Checkout Counter': (0, 0, 200, 150), 
+    'Central Display': (200, 150, 400, 300),  
+    'Left Shelves': (0, 300, 200, 600),  
+    'Right Shelves': (400, 300, 640, 600)  
 }
 
 def send_alert(message):
