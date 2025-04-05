@@ -22,7 +22,7 @@ Steps
 Clone the repository:
 
 bash
-git clone https://github.com/yourusername/customer-analytics-ai.git
+git clone https://github.com/ArnavKhurana22/IntelUnnati/tree/master
 cd customer-analytics-ai
 Install dependencies:
 
