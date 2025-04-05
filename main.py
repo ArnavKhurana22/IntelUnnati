@@ -176,7 +176,7 @@ def process_video(video_source):
 def start_streamlit_app():
     """Main Streamlit application"""
     st.set_page_config(layout="wide")
-    st.title("🛒 Smart Retail Analytics Dashboard")
+    st.title("Enhancing Customer experience with AI driven insights")
     
     # Initialize session state
     if 'running' not in st.session_state:
