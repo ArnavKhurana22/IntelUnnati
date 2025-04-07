@@ -1,5 +1,5 @@
-Overview
-Customer Analytics with AI is a real-time retail analytics dashboard that uses YOLOv8 for object detection and tracking to monitor customer behavior in a convenience store. The system dynamically identifies crowded areas, tracks dwell times, and provides actionable recommendations such as restocking shelves or optimizing store operations. It supports both webcam input and video file uploads, making it versatile for various retail environments.
+Overview (problem statement 4)
+Enhancing customer experience with AI driven insights is a real-time retail analytics dashboard that uses YOLOv8 for object detection and tracking to monitor customer behavior in a convenience store. The system dynamically identifies crowded areas, tracks dwell times, and provides actionable recommendations such as restocking shelves or optimizing store operations. It supports both webcam input and video file uploads, making it versatile for various retail environments.
 
 Features
 Real-Time Object Detection: Tracks customers using YOLOv8 with bounding boxes and unique IDs.
@@ -12,27 +12,34 @@ Post-Processing Insights: Generates detailed reports after video processing, inc
 
 Streamlit Interface: User-friendly dashboard for hosting the system with options to use webcam or upload video files.
 
-Installation
-Prerequisites
+Prerequisites: 
 Python 3.8 or higher
 
 Pip package manager
 
 Steps
+
 Clone the repository:
 
 bash
-git clone https://github.com/ArnavKhurana22/IntelUnnati/tree/master
+
+git clone https://github.com/ArnavKhurana22/IntelUnnati
+
 cd customer-analytics-ai
+
 Install dependencies:
 
 bash
+
 pip install -r requirements.txt
+
 Run the Streamlit app:
 
 bash
+
 streamlit run app.py
-Usage
+
+Usage-
 Select Input Source:
 
 Choose between webcam or upload a video file from the sidebar.
